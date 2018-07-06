@@ -14,14 +14,31 @@ x = requests.get(url,headers=header)
 webpage=x.content.decode()
 
 soup = BS(webpage,'lxml')
+beer_types = []
 for ingredients in soup.find_all('form'):
     styles = str(ingredients).split()
     for entries in styles:
         if str('value=') in entries:
-            print(entries)
+            q1 = entries.find('"')
+            q2 = entries.rfind('"')
+            beer_types.append(entries[q1+1:q2])
+            #print(entries[q1+1:q2])
     #print(values)
 #print(soup.body.find_all('form'))
+print(beer_types)
 
+for beer in beer_types:
+    url = 'https://byo.com/resource/hops/?beer-style=' + beer + '&tax-submit=Submit'
+    x = requests.get(url,headers=header)
+    webpage=x.content.decode()
+    soup = BS(webpage,'lxml')
+    for tag in soup.find_all('div',class_='col-xs-12 col-md-8 col-lg-9'):
+        n_rows = 0
+        n_columns = 0
+        for row in tag.find_all('div',class_='row'):
+            n_rows += 1
+            #print(tag.text.strip())
+        print(n_rows)
 
 dir_str = '/home/ep3/Desktop/'
 directory = os.fsencode(dir_str)
