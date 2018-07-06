@@ -1,9 +1,26 @@
 #!/usr/bin/python3
 import os
+import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup as BS
 from bs4 import SoupStrainer
+
+url = 'https://byo.com/resource/hops/?beer-style=american-amber-ale&tax-submit=Submit'
+
+header = {'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
+
+x = requests.get(url,headers=header)
+webpage=x.content.decode()
+
+soup = BS(webpage,'lxml')
+for ingredients in soup.find_all('form'):
+    styles = str(ingredients).split()
+    for entries in styles:
+        if str('value=') in entries:
+            print(entries)
+    #print(values)
+#print(soup.body.find_all('form'))
 
 
 dir_str = '/home/ep3/Desktop/'
@@ -37,4 +54,3 @@ for file in os.listdir(dir_str):
 
 #parse = BS(doc)
 #print(parse.body.find('div',class_="col-xs-12 col-md-6 col-lg-4"))
-
