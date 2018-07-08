@@ -1,0 +1,11 @@
+*.html
+a.out
+fort.*
+*.cube
+*.cub
+*.aux
+*.bbl
+*.blg
+*.log
+*.mod
+*.swp
