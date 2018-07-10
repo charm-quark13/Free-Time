@@ -68,7 +68,7 @@ for file in os.listdir(dir_str):
                                 df.iat[row_point,col_point] = data[col_point-1]
                             col_point +=1
                         row_point += 1
-#                    print(df)
+                    print(df)
                     poynt += 1
                     if poynt == 1:
                         df1 = df
@@ -85,11 +85,9 @@ for file in os.listdir(dir_str):
 #            print(current)
             continue
 
-df_master = df_master.drop_duplicates(subset=['Name','Minimum Alpha Acid %','Maximum Alpha Acid %','Possible Substitution','Flavor Description'])
-filename = 'hops_trimmed.csv'
-with open(filename,'w') as f:
-    df_master.to_csv(path_or_buf=f)
+#df_master = df_master.drop_duplicates(subset=['Name','Minimum Alpha Acid %','Maximum Alpha Acid %','Possible Substitution','Flavor Description'])
+#filename = 'hops_trimmed.csv'
+#with open(filename,'w') as f:
+#    df_master.to_csv(path_or_buf=f)
 
 
-#parse = BS(doc)
-#print(parse.body.find('div',class_="col-xs-12 col-md-6 col-lg-4"))

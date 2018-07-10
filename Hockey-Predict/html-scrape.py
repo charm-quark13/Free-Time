@@ -13,6 +13,7 @@ def scrape(x1,x2,html1,html2):
         iter_list.append(x)
 
     for iter in iter_list:
+        print(iter)
         html = str(html1) + str(iter) + str(html2)
         x = requests.get(html,headers=header)
         webpage = x.content.decode()
@@ -21,6 +22,7 @@ def scrape(x1,x2,html1,html2):
             f.write(soup.prettify())
 
 header = {'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
+
 html1 = 'https://www.hockey-reference.com/leagues/NHL_'
 html2 = '_skaters.html'
 
