@@ -21,17 +21,31 @@ for file in os.listdir(dir_str):
                 column_title.append(str(tag.text.strip()))
             for table in parse.find_all('tbody'):
                 n_rows = 0
+                row_point = 0
                 for row in table.find_all('tr'):
                     n_rows += 1
+
+            column_title.pop(0)
+            df = pd.DataFrame(columns = column_title,index=range(n_rows))
+            for table in parse.find_all('tbody'):
+                row_point = 0
+                for row in table.find_all('tr'):
                     row_data = []
+                    col_point = 0
                     for entry in row.find_all('td'):
                         row_data.append(entry.get_text('',strip=True))
                         if '*' in row_data[0]:
                             row_data[0] = row_data[0][:-1]
-                    print(row_data)
+                        if len(row_data) == 0:
+                            continue
+                        df.iat[row_point,col_point] = row_data[-1]
+                        col_point +=1
+                    row_point += 1
+                print(df)
                 #print(table)
-
-            print(column_title)
+#            with open('test_csv.csv','w') as f:
+#                df.to_csv(str(f))
+#            print(column_title)
             exit()
 
 #                n_rows = 0
