@@ -12,14 +12,18 @@ dir_str = str(os.getcwd())
 for file in os.listdir(dir_str):
     filename = os.fsdecode(file)
     if filename.endswith('.html'):
-        if filename.find('skater')!=-1:
+        if filename.find('goalies')!=-1:
             os.chdir(dir_str)
             print(filename)
+            hyphen = filename.find('-')
+            period = filename.find('.')
             with open(filename,'r') as doc:
                 parse = BS(doc,'lxml')
                 column_title = []
                 for tag in parse.find_all('th',scope="col"):
                     column_title.append(str(tag.text.strip()))
+                    if column_title == []:
+                            continue
                 for table in parse.find_all('tbody'):
                     n_rows = 0
                     row_point = 0
@@ -28,11 +32,6 @@ for file in os.listdir(dir_str):
 
                 column_title.pop(0)
                 df = pd.DataFrame(index = range(n_rows),columns = column_title)
-                #dic = {}
-                #for column in column_title:
-                #    dic[str(column)] = []
-                #print(dic.items())
-                #print(column_title)
                 for table in parse.find_all('tbody'):
                     row_point = 0
                     row_data = [[]]
@@ -41,36 +40,25 @@ for file in os.listdir(dir_str):
                         row_set = []
                         for entry in row.find_all('td'):
                             row_set.append(entry.get_text('',strip=True))
-#                            if '*' in row_data:
-#                                print(row_data[0])
-#                                row_data[0] = row_data[0][:-1]
-#                            if len(row_data) == 0:
-#                                continue
-                            #print(row_data[-1])
-#                            if col_point <=4:
-#                                df.iat[row_point,col_point] = row_data[col_point]
+                        for it1 in row_set:
+                            if it1.find('*') != -1:
+                                row_set[0] = it1[0:it1.find('*')]
                         row_data.append(row_set)
                     row_point += 1
 
                 sub_list = []
-                #print(len(row_data))
+                it1 = 0
                 for it1 in range(len(row_data)):
-                    if str('*') in row_data[it1][0]:
-                        row_data[it1][0] = row_data[it1][:-1]
                     if row_data[it1] == []:
                         sub_list.append(it1)
-                #print(len(sub_list))
                 for x in reversed(sub_list):
                     del row_data[x]
-                #print(row_data)
 
                 df = pd.DataFrame(row_data,columns=column_title)
-                #print(df)
-                    #print(table)
-    #            with open('test_csv.csv','w') as f:
-    #                df.to_csv(str(f))
-    #            print(column_title)
-                exit()
+
+                with open('goalies-'+ str(filename[hyphen+1:period]) + '.csv','w') as f:
+                    df.to_csv(path_or_buf=f)
+exit()
 
 #                n_rows = 0
 #                n_columns = 0
