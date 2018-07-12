@@ -27,7 +27,7 @@ adv_df = dfread(filename)
 
 #  Need to get rid of duplicate rows in f_df and d_df before concatenating
 #  with the advanced statistics tables.
-df = df.drop_duplicates(subset = 'Player',keep = 'first')
+df = df.drop_duplicates(subset = ['Player','Pos'],keep = 'first')
 df = df.reset_index(drop=True)
 df = df.drop('Unnamed: 0',axis=1)
 adv_df = adv_df.drop('Unnamed: 0',axis=1)
@@ -41,7 +41,13 @@ f_df, d_df = Pos_Org(df)
 f_df = pd.concat([f_df,adf_df],axis=1)
 d_df = pd.concat([d_df,add_df],axis=1)
 
+f_df['Thru%'] = f_df['Thru%'].fillna(0.)
+d_df['Thru%'] = d_df['Thru%'].fillna(0.)
+
+for datfs in [f_df,d_df]:
+    print(datfs.isnull().any())
+
 #print(adf_df)
 #print(add_df)
-print(f_df)
-print(d_df)
+#print(f_df)
+#print(d_df)
