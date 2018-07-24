@@ -38,14 +38,25 @@ adv_df = adv_df.set_index('Player',drop=False)
 adf_df, add_df = Pos_Org(adv_df)
 f_df, d_df = Pos_Org(df)
 
-f_df = pd.concat([f_df,adf_df],axis=1)
-d_df = pd.concat([d_df,add_df],axis=1)
+cols_merged = adf_df.columns.difference(f_df.columns)
+f_df = f_df.merge(adf_df[cols_merged],left_index=True,right_index=True,how='outer')
+d_df = d_df.merge(add_df[cols_merged],left_index=True,right_index=True,how='outer')
 
-f_df['Thru%'] = f_df['Thru%'].fillna(0.)
-d_df['Thru%'] = d_df['Thru%'].fillna(0.)
+f_df.rename(columns={'GW':'GWG'},inplace=True)
 
+nulltot = []
 for datfs in [f_df,d_df]:
-    print(datfs.isnull().any())
+    nulls = datfs.columns[datfs.isnull().any()].tolist()
+    nulltot.extend(nulls)
+
+nulltot = list(set(nulltot))
+
+#print(f_df.columns)
+for null in nulltot:
+    print(null)
+    print(f_df[null].isnull().sum(),d_df[null].isnull().sum())
+
+#print(f_df.groupby(['Tm','Pos'],axis=0).mean())
 
 #print(adf_df)
 #print(add_df)
