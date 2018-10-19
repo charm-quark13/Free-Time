@@ -1,140 +1,32 @@
-,Name,Minimum Alpha Acid %,Maximum Alpha Acid %,Possible Substitution,Flavor Description,Beer Styles
-0,Admiral,13.5,16.0,"U.K. Challenger, U.K. Northdown, U.K. Target",Known for its bittering potential.,imperial-stout
-1,Apollo,15.0,19.0,Zeus,A high alpha acid varietal known for its disease resistance.,imperial-stout
-2,Boadicea,8.0,9.0,,spicy,imperial-stout
-3,Bobeck,3.5,7.0,,U.K. Fuggle,imperial-stout
-4,Bramling Cross,5.0,7.0,"U.K. Kent Golding, U.K. Progress, Whitbread Golding Variety","Quite mild, fruity currant aroma.",imperial-stout
-5,Brewer’s Gold,7.0,10.0,Bullion,Bittering hop with neutral aroma character.,imperial-stout
-6,Bullion,6.5,9.0,"Columbus, Northern Brewer",A rich hop primarily used for bittering. Intense blackcurrant aroma.,imperial-stout
-7,Cascade,4.5,7.0,"Amarillo, Centennial, possibly Columbus","Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.",imperial-stout
-8,Cascade,6.0,8.0,"Ahtanum, Cascade, Centennial","Similar to US Cascade, has floral, citrus grapefruit character.",imperial-stout
-9,Centennial,8.0,11.5,"Cascade, possibly Columbus",Medium with floral and citrus tones.,imperial-stout
-10,Challenger,6.5,8.5,"Northern Brewer, U.S. or German Perle","Mild to moderate, quite spicy.",imperial-stout
-11,Chinook,10.0,14.0,"Columbus, Northern Brewer, Nugget, U.K. Target","Mild to medium-heavy, spicy, piney, and grapefruity.",imperial-stout
-12,Cluster,5.5,8.5,Galena,Medium and quite spicy.,imperial-stout
-13,Columbus,11.0,16.0,"Chinook, Northern Brewer, Nugget, U.K. Target","Pleasant, with pungent aroma.",imperial-stout
-14,El Dorado,14.0,16.0,,"Dual purpose hop with fruity, tropical flavors.",imperial-stout
-15,First Gold,6.5,8.5,"maybe Crystal, U.K. Kent Golding",A little like Golding family; spicy.,imperial-stout
-16,Fuggle,4.0,5.5,"Styrian Golding, U.S. Fuggle, Willamette","Mild, pleasant, hoppy, and robust.",imperial-stout
-17,Fuggle,4.0,5.5,"Styrian Golding, U.K. Fuggle, U.S. Tettnanger, Willamette","Mild and pleasant, earthy and fruity.",imperial-stout
-18,Galena,10.0,14.0,"Chinook, Nugget, Pride of Ringwood","Medium but pleasant hoppiness, citrusy.",imperial-stout
-19,Golding,4.0,6.0,"U.K. Golding, U.K. Progress, Whitbread Golding Variety","Mild, extremely pleasant, and gently hoppy.",imperial-stout
-20,Horizon,11.0,14.0,Magnum,"Spicy, floral. Low co-humulone results in clean tasting beer.",imperial-stout
-21,Kent Golding,4.0,5.5,"U.K. Progress, U.S. Golding, Whitbread Golding Variety","Gentle, fragrant, and pleasant.",imperial-stout
-22,Magnum,12.0,16.0,"Northdown, Northern Brewer",Known for bittering value and quality.,imperial-stout
-23,Magnum,10.0,14.0,"Northdown, Northern Brewer",High alpha variety,imperial-stout
-24,Newport,13.0,17.0,"Galena, Nugget",Fairly pungent.,imperial-stout
-25,Northdown,7.5,9.5,,Fruity with some spiciness.,imperial-stout
-26,Northern Brewer,7.0,10.0,"Chinook, U.S. Northern Brewer",Medium-strong with some wild tones.,imperial-stout
-27,Northern Brewer,6.0,10.0,"Chinook, Nugget",Medium-strong with some wild tones.,imperial-stout
-28,Northwest Golding,4.0,5.0,,Known for aromatic properties.,imperial-stout
-29,Nugget,11.0,14.5,"Chinook, Columbus, Galena, U.K. Target",Quite heavy and herbal.,imperial-stout
-30,Olympic,11.0,13.0,Chinook,"Mild to medium, citrusy aroma, spicy.",imperial-stout
-31,Pacific Gem,13.0,15.0,Galena,Bittering hop with delicate blackberry and floral oak. Pleasant aroma and high bitterness level.,imperial-stout
-32,Pacific Jade,12.0,14.0,,A “soft” bittering hop with spicy and citrus aroma qualities.,imperial-stout
-33,Palisade®,5.5,9.5,Perhaps Cascade,Some “American” characteristics.,imperial-stout
-34,Perle,6.0,8.5,"Northern Brewer, U.S. Perle","Moderately intense, good and hoppy, fruity and a little spicy.",imperial-stout
-35,Perle,6.0,9.5,"Chinook, Cluster, Galena, Northern Brewer","Known for its aromatic and bittering properties, pleasant and slightly spicy.",imperial-stout
-36,Phoenix,9.0,13.0,"U.K. Challenger, U.K. Kent Golding, U.K. Northdown","Dual purpose hop with aromas of pine, chocolate, molasses, and floral.",imperial-stout
-37,Pilgrim,9.0,13.0,"U.K. Challenger, U.K. Target","Dual purpose hop with citrusy, fruity, spicy, and lemon aromas.",imperial-stout
-38,Pioneer,8.0,10.0,U.K. Kent Golding,"A mild, typical English aroma.",imperial-stout
-39,Pride of Ringwood,7.0,10.0,"Cluster, Galena","Quite pronounced, woody, earthy, herbal.",imperial-stout
-40,Progress,5.0,7.5,"Fuggle, U.K. Kent Golding","Moderately strong, good aroma.",imperial-stout
-41,Satus,12.5,14.0,Galena,Known for its bittering and aromatic properties.,imperial-stout
-42,Simcoe®,12.0,14.0,,A bittering and aromatic hop.,imperial-stout
-43,Southern Cross,11.0,14.0,,"Piney, resinous bittering hop",imperial-stout
-44,Sovereign,5.0,6.0,U.K. Fuggle,mild flavor,imperial-stout
-45,Summit™,16.0,18.0,Simcoe,Ultra high-alpha bittering hop,imperial-stout
-46,Sun,12.0,16.0,Magnum,High-alpha hop with intense character,imperial-stout
-47,Super Alpha,10.0,12.0,,"Earthy, piney bittering hop.",imperial-stout
-48,Target,9.5,12.5,"Fuggle, Willamette","Pleasant English hop aroma, quite intense.",imperial-stout
-49,Tomahawk®,15.0,17.0,Columbus,Primarily a bittering hop.,imperial-stout
-50,Warrior®,15.0,17.0,Nugget,A bittering and aromatic hop.,imperial-stout
-51,WGV (Whitbread Golding Variety),5.0,7.0,"Glacier, Styrian Golding, U.K. Kent Golding, U.K. Progress, U.K. Target","Quite pleasant and hoppy, moderately intense, slightly spicy.",imperial-stout
-52,Willamette,3.5,6.0,"Styrian Golding, U.S. Fuggle, U.S. Tettnanger","Mild and pleasant, slightly spicy, fruity, floral, a little earthy.",imperial-stout
-53,Yakima Cluster,6.0,8.5,,Used as a kettle hop for bittering.,imperial-stout
-54,Zeus,13.0,17.0,Columbus,Aromatic and pleasant.,imperial-stout
-61,Brewer’s Gold,6.0,7.0,"Bullion, Galena, Northdown, Northern Brewer","Black currant, fruity, spicy.",english-bitter-mild-and-pale-ale
-63,Cascade,3.0,5.0,Any noble hops,Different than US grown Cascades with more of a spicy flavor and lemony aroma.,english-bitter-mild-and-pale-ale
-64,Celeia,3.0,6.0,Styrian Golding,"Moderate and pleasant zesty bitterness with matching floral aroma, making its use widespread in both ale and lager brewing.",Stores very well.
-71,Glacier,5.0,9.0,"Styrian Golding, U.S. Fuggle, U.S. Tettnanger, Willamette",Dual purpose hop with a citrus earthy aroma.,english-bitter-mild-and-pale-ale
-73,Herald,11.0,13.0,,New dual-purpose hop,english-bitter-mild-and-pale-ale
-78,Nelson Sauvin,12.0,14.0,,"Distinctive white wine “fruitiness,” gooseberry. Considered by some as “extreme,” this hop is often used in specialty craft and seasonal beers.",english-bitter-mild-and-pale-ale
-84,Opal,5.0,8.0,Styrian Golding,German dual-purpose hop,english-bitter-mild-and-pale-ale
-94,Styrian Aurora,7.0,9.5,"Northern Brewer, Styrian Golding, U.S. Styrian Bobek","Intense, pleasant and hoppy. Very suitable for extraction and for combination with other varieties in the brewing process.",english-bitter-mild-and-pale-ale
-95,Styrian Bobek,3.5,7.0,"Styrian Golding, U.K. Fuggle, U.S. Fuggle, Willamette","Intense, pleasant hop aroma. Similar to Fuggle type.",english-bitter-mild-and-pale-ale
-96,Styrian Celeia,3.0,6.0,"Saaz, Slovenia Bobeck, Styrian Golding","Pleasant, hoppy. A high-quality aroma variety with excellent bitterness and aroma qualities.",english-bitter-mild-and-pale-ale
-97,Styrian Golding,4.5,6.0,"U.K. Fuggle, U.S. Fuggle, Willamette","Delicate, slightly spicy.",english-bitter-mild-and-pale-ale
-98,Super Pride,14.0,14.0,Pride of Ringwood,A high alpha variety bred from Pride of Ringwood.,english-bitter-mild-and-pale-ale
-100,Wakatu,N/,N/,"Hallertauer Mittelfrüh, Nelson Sauvin","Wakatu features floral aromas, as well as notes of fresh lime zest, citrus oils, and has a Mittlefrüh-style sweetness.",english-bitter-mild-and-pale-ale
-104,Ahtanum™,4.0,6.3,"Amarillo, Cascade","Floral, citrus, sharp, and piney.",india-pale-ale
-105,Amarillo®,8.0,9.0,"Cascade, Centennial","Citrusy, flowery.",india-pale-ale
-107,Azacca®,14.0,16.0,,"A dual-use, high-alpha hop. Aroma and flavor characteristics of apricot, ripe mango, orchard fruit, orange, grapefruit, pine, and pineapple.",india-pale-ale
-111,Bravo,14.0,17.0,,"Apollo, Zeus",india-pale-ale
-115,Calypso,12.0,14.0,,"Exhibits pleasant fruity notes-apple, pear, fruit punch.",india-pale-ale
-118,Cashmere,7.7,9.1,,"This dual purpose variety is an offspring of Cascade and Northern Brewer. Cashmere has aroma and flavor characteristics of melon, lemon, lime, herbs, and citrus fruits.",india-pale-ale
-122,Citra®,11.0,13.0,,Intense citrusy flavor.,india-pale-ale
-125,Comet,9.0,11.0,,"Grapefruit, lemon, orange, and grassy notes.",india-pale-ale
-127,Eureka!,17.0,19.0,Simcoe,"An offspring of Apollo and German Merkur, Eureka! has aromas and characteristics of strong herbal notes, pine, mint, grapefruit rind, tangerine, and other citrus. Great for brewers looking for varieties to use in late addition, whirlpool, or “hop stand” hop additions.",india-pale-ale
-134,Hallertau Blanc,9.0,12.0,,"Winey, passion fruit, grapefruit, gooseberry, pineapple character.",india-pale-ale
-136,Huell Melon,7.0,8.0,,Honeydew melon and strawberry aroma.,india-pale-ale
-137,Idaho,12.0,15.0,,"A dual-purpose variety with flavors and aromas of tropical fruit, orange, apricot, black tea, pine, and herbs.",india-pale-ale
-139,Lemondrop,5.0,7.0,Amarillo,"This aroma hop originated from a cross between Cascade and USDA 19058 male. It features (of course) lemony, floral, earthy, herbal, grassy, citrus, pepper, and pine notes.",india-pale-ale
-142,Mosaic™,11.5,13.5,"Nugget, Simcoe","Both fruity and containing grassy, floral, earthy notes.",india-pale-ale
-151,Orbit,N/,N/,,Orbit is different each year as it uses a proprietary blend of hops specially selected out of the New Zealand “Hops with a Difference” breeding program.,india-pale-ale
-162,Rakau,9.0,11.0,,"High alpha acids and oil content (particularly myrcene) with low cohumulone, making it ideal for the “hoppy not bitter” school of new world IPAs. Aromas and flavors of ripe fruit, grassiness, lemon, grapefruit juice, and hints of tropical flowers.",india-pale-ale
-163,Riwaka,4.5,6.5,"Czech Saaz, possible American ""C"" hops","Citrusy, grapefruit aroma hop",india-pale-ale
-166,Sorachi Ace,13.0,16.0,,Bittering hop with lemony aroma,india-pale-ale
-170,Summer,5.6,6.4,,"A hop variety formerly known as Summer Saaz that has a gentle floral aroma, slightly earthy. Expect apricot and stone fruit notes when used in dry hopping.",india-pale-ale
-177,Wai-iti,3.4,3.4,Saaz,"Aroma hop with a startlingly citrus aroma made up of mandarin, lemon and lime zest",india-pale-ale
-178,Waimea,16.0,19.0,,High alpha but also lots of oils giving fresh tangelo and citrus fruit aroma with pine needles,india-pale-ale
-186,Belma,12.1,12.1,,"Clean bitterness, citrus, tropical fruit flavors.",wheat-beer
-196,Eroica,9.0,12.0,"Chinook, Galena, Nugget",Strong but pleasant aroma.,wheat-beer
-197,Green Bullet,11.0,14.0,"Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra",Dual purpose hop.,wheat-beer
-198,Hallertau Aroma,6.5,8.5,Perle,A dual purpose hop which has been used to replace Perle,wheat-beer
-199,Hallertauer,3.5,5.5,"Hallertauer Tradition, Liberty, Ultra","Very mild, pleasant, and slightly flowery, some spicy.",wheat-beer
-200,Hallertauer Gold,6.0,6.5,"Crystal, Mt. Hood",Known for its aromatic properties similar to Hallertauer.,wheat-beer
-201,Hallertauer Mittelfrüh,3.0,5.5,"German Tradition, Liberty, Ultra",Mild and pleasant.,wheat-beer
-202,Hallertauer Tradition,3.5,5.5,"Crystal, Liberty",Known for its aromatic properties. A replacement for Hallertauer Mittelfrüh.,wheat-beer
-203,Hersbrucker,3.0,5.5,"French Strisslespalt, Mt. Hood","Mild to semi-strong, pleasant, hoppy.",wheat-beer
-206,Liberty,3.0,6.0,"Hallertauer, Hallertauer Tradition, Mt. Hood","Mild and clean aroma, slightly spicy character.",wheat-beer
-209,Mt. Hood,3.0,8.0,"Crystal, French Strisslespalt, Hersbrucker","Mild, pleasant, and clean, somewhat pungent and resiny.",wheat-beer
-217,Pacifica,5.0,6.0,Hallertau family,An aroma hop with some citrus and floral character,wheat-beer
-218,Pekko™,13.0,16.0,Saaz,"A clean and pleasant variety with floral mint, herbal, citrus, thyme, cucumber, lemon, and sage characteristics. Sometimes described as “Saaz like.”",wheat-beer
-221,Polaris,18.0,24.0,,"Minty, icy quality.",wheat-beer
-223,Saaz,3.0,4.5,U.S. Saaz,"Very mild with pleasant hoppy notes, earthy, spicy, and herbal.",wheat-beer
-224,Saaz,3.0,5.0,Czech Saaz,"Mild and pleasant, earthy and spicy.",wheat-beer
-225,Santiam,5.0,7.9,"German Spalt, German Spalt Select, German Tettnanger",Noble characteristics.,wheat-beer
-226,Saphir,2.5,4.5,Any noble hops,Mild aroma hop.,wheat-beer
-228,Sladek,5.0,6.0,"Czech Saaz, U.S. Saaz, U.S. Tettnanger",A dual-purpose Saaz hybrid.,wheat-beer
-231,Spalt,4.0,5.5,"German Spalt Select, U.S. Saaz, U.S. Tettnanger","Mild and pleasant, slightly spicy.",wheat-beer
-232,Spalt Select,4.0,6.0,"German Spalt, U.S. Saaz, U.S. Tettnanger",Very fine Spalter-type aroma.,wheat-beer
-233,Spalt Select,3.0,5.0,"Saaz, Tettnanger",Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.,wheat-beer
-234,Sterling,6.0,9.0,Saaz,"Herbal, spicy, pleasant aroma, hint of floral and citrus.",wheat-beer
-235,Strisslespalt,3.0,5.0,"Crystal, Hersbrucker, Mt. Hood","Medium intensity, pleasant, hoppy.",wheat-beer
-238,Taurus,12.0,17.0,Magnum,high-alpha hop,wheat-beer
-239,Tettnanger,3.5,5.5,"German Spalt, German Spalt Select, Saaz, U.S. Tettnanger","Mild and pleasant, slightly spicy, herbal.",wheat-beer
-240,Tettnanger,3.4,5.2,"Czech Saaz, German Spalt, Santiam","An aromatic hop, mild and slightly spicy.",wheat-beer
-242,Tradition,5.0,7.0,"Hallertauer Mittelfrüh, Hersbrucker",Very fine and similar to Hallertauer Mittelfrüh.,wheat-beer
-243,Ultra,2.0,4.1,"Hallertauer Tradition, Liberty, Saaz","Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.",wheat-beer
-244,Vanguard,4.0,5.7,"Hallertauer Mittelfrüh, Saaz",Aroma similar to continental European types.,wheat-beer
-275,Legacy,N/,N/,,"Clean grapefruit, floral, black currant notes and a spicy aroma.",stout
-320,Crystal,2.0,4.5,"French Strisslespalt, Hallertauer, Hersbrucker, Liberty, Mt. Hood","Mild and pleasant, spicy and flowery.",american-lager
-322,Ella,13.3,16.3,,"Dual purpose hop that displays floral and subtle spice notes. When used as a late addition or dry hop, it imparts grapefruit and topical flavors.",american-lager
-330,Herkules,12.0,17.0,,bittering hop,american-lager
-339,Merkur,12.0,15.0,Magnum,"high-alpha, bittering hop",american-lager
-340,Millenium,12.0,15.0,Nugget,"Mild, herbal, similar to Nugget.",american-lager
-342,Mt. Rainier,5.0,8.1,Hallertauer,only available in 2012,american-lager
-387,Motueka,6.5,7.5,"Czech Saaz, U.S. Saaz","Aroma hop that is fruity, tropical and citrusy.",bock
-398,Select,4.0,6.0,"Czech Saaz, German Spalt, Tettnanger",noble-type aroma,bock
-519,Aurora,6.0,8.0,,Northern Brewer,european-amber-lager
-587,Smaragd,4.0,6.0,,Fruity and floral aromas.,fruit-beer
-612,Jarrylo™,15.0,17.0,,"A high-alpha hop, the flavor imparts a mild sweetness and a tea-like spice, with flavors and aromas of banana, pear, spice, and herbal notes.",belgian-blond
-617,Mandarina Bavaria,7.0,10.0,Cascade,Mandarin orangey flavor and aroma.,belgian-blond
-701,Galaxy™,11.0,16.0,,"When used as a late addition or dry hopped, it contributes a pungent flavor of passionfruit and citrus.",american-pale-ale
-708,Kohatu,3.0,3.0,,Aroma hop with high essential oils and intense floral characters of pine needles and tropical fruit.,american-pale-ale
-746,Topaz,13.7,17.7,,"A dual purpose hop, Topaz adds a resinous, grassy flavors; however, with later additions and in higher gravity brews, light tropical fruit flavors (some say lychee) become more pronounced.",american-pale-ale
-747,Vic Secret,14.0,17.0,,"An aroma hop with resinous, grassy and mild fruit flavors. Late and dry hop additions introduce appealing clean and distinct pineapple and pine characters. Lighter and less dominant than Galaxy.",american-pale-ale
-950,Marynka,9.0,12.0,,New hop variety with intense aroma,european-dark-lager
-994,Lublin,3.0,4.5,"Czech Saaz, U.S. Saaz, U.S. Tettnanger","Mild and typical of noble aroma types, spicy, herbal.",european-pale-lager
-1008,Premiant,8.0,12.5,,A dual purpose variety with a balanced bitterness and slightly spicy aroma,european-pale-lager
+,Name,Minimum Alpha Acid %,Maximum Alpha Acid %,Possible Substitution,Flavor Description,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y,Beer Styles_x,Beer Styles_y
+0,Boadicea,8.0,9.0,,spicy,imperial-stout,english-bitter-mild-and-pale-ale,india-pale-ale,wheat-beer,stout,american-lager,bock,brown-ale,smoked-beer,european-amber-lager,mead,fruit-beer,belgian-blond,belgian-strong-ale,american-pale-ale,specialty-and-experimental-beer,porter,spice-herb-and-vegetable-beer,american-light-ale,soda-pop,european-dark-lager,european-pale-lager,american-amber-ale,scottish-ale,cider-and-perry,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+1,El Dorado,14.0,16.0,,"Dual purpose hop with fruity, tropical flavors.",imperial-stout,english-bitter-mild-and-pale-ale,india-pale-ale,wheat-beer,stout,american-lager,bock,brown-ale,smoked-beer,european-amber-lager,mead,fruit-beer,belgian-blond,belgian-strong-ale,american-pale-ale,specialty-and-experimental-beer,porter,spice-herb-and-vegetable-beer,american-light-ale,soda-pop,european-dark-lager,european-pale-lager,american-amber-ale,scottish-ale,cider-and-perry,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+2,Sovereign,5.0,6.0,U.K. Fuggle,mild flavor,imperial-stout,english-bitter-mild-and-pale-ale,india-pale-ale,wheat-beer,stout,american-lager,bock,brown-ale,smoked-beer,european-amber-lager,mead,fruit-beer,belgian-blond,belgian-strong-ale,american-pale-ale,specialty-and-experimental-beer,porter,spice-herb-and-vegetable-beer,american-light-ale,soda-pop,european-dark-lager,european-pale-lager,american-amber-ale,scottish-ale,cider-and-perry,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+3,Horizon,11.0,14.0,Magnum,"Spicy, floral. Low co-humulone results in clean tasting beer.",,,,,,,,,,,,,,,,,,,,,,,,,,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+4,Magnum,12.0,16.0,"Northdown, Northern Brewer",Known for bittering value and quality.,,,,,,,,,,,,,,,,,,,,,,,,,,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+5,Magnum,10.0,14.0,"Northdown, Northern Brewer",High alpha variety,,,,,,,,,,,,,,,,,,,,,,,,,,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+6,Target,9.5,12.5,"Fuggle, Willamette","Pleasant English hop aroma, quite intense.",,,,,,,,,,,,,,,,,,,,,,,,,,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+7,Wakatu,N/,N/,"Hallertauer Mittelfrüh, Nelson Sauvin","Wakatu features floral aromas, as well as notes of fresh lime zest, citrus oils, and has a Mittlefrüh-style sweetness.",,,,,,,,,,,,,,,,,,,,,,,,,,english-and-scottish-strong-ale,kolsch-and-altbier,belgian-lambic-and-sour-ale
+8,Hallertauer,3.5,5.5,"Hallertauer Tradition, Liberty, Ultra","Very mild, pleasant, and slightly flowery, some spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+9,Hallertauer Gold,6.0,6.5,"Crystal, Mt. Hood",Known for its aromatic properties similar to Hallertauer.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+10,Hallertauer Mittelfrüh,3.0,5.5,"German Tradition, Liberty, Ultra",Mild and pleasant.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+11,Hallertauer Tradition,3.5,5.5,"Crystal, Liberty",Known for its aromatic properties. A replacement for Hallertauer Mittelfrüh.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+12,Hersbrucker,3.0,5.5,"French Strisslespalt, Mt. Hood","Mild to semi-strong, pleasant, hoppy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+13,Liberty,3.0,6.0,"Hallertauer, Hallertauer Tradition, Mt. Hood","Mild and clean aroma, slightly spicy character.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+14,Mt. Hood,3.0,8.0,"Crystal, French Strisslespalt, Hersbrucker","Mild, pleasant, and clean, somewhat pungent and resiny.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+15,Perle,6.0,8.5,"Northern Brewer, U.S. Perle","Moderately intense, good and hoppy, fruity and a little spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+16,Perle,6.0,9.5,"Chinook, Cluster, Galena, Northern Brewer","Known for its aromatic and bittering properties, pleasant and slightly spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+17,Saaz,3.0,4.5,U.S. Saaz,"Very mild with pleasant hoppy notes, earthy, spicy, and herbal.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+18,Saaz,3.0,5.0,Czech Saaz,"Mild and pleasant, earthy and spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+19,Santiam,5.0,7.9,"German Spalt, German Spalt Select, German Tettnanger",Noble characteristics.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+20,Saphir,2.5,4.5,Any noble hops,Mild aroma hop.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+21,Spalt,4.0,5.5,"German Spalt Select, U.S. Saaz, U.S. Tettnanger","Mild and pleasant, slightly spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+22,Spalt Select,4.0,6.0,"German Spalt, U.S. Saaz, U.S. Tettnanger",Very fine Spalter-type aroma.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+23,Spalt Select,3.0,5.0,"Saaz, Tettnanger",Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+24,Sterling,6.0,9.0,Saaz,"Herbal, spicy, pleasant aroma, hint of floral and citrus.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+25,Strisslespalt,3.0,5.0,"Crystal, Hersbrucker, Mt. Hood","Medium intensity, pleasant, hoppy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+26,Tettnanger,3.5,5.5,"German Spalt, German Spalt Select, Saaz, U.S. Tettnanger","Mild and pleasant, slightly spicy, herbal.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+27,Tettnanger,3.4,5.2,"Czech Saaz, German Spalt, Santiam","An aromatic hop, mild and slightly spicy.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+28,Tradition,5.0,7.0,"Hallertauer Mittelfrüh, Hersbrucker",Very fine and similar to Hallertauer Mittelfrüh.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+29,Ultra,2.0,4.1,"Hallertauer Tradition, Liberty, Saaz","Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.",,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale
+30,Vanguard,4.0,5.7,"Hallertauer Mittelfrüh, Saaz",Aroma similar to continental European types.,,,,,,,,,,,,,,,,,,,,,,,,,,,kolsch-and-altbier,belgian-lambic-and-sour-ale

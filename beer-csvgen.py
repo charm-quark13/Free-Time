@@ -85,6 +85,8 @@ for file in os.listdir(dir_str):
 #            print(current)
             continue
 
+df = pd.DataFrame(index=range(n_rows),columns=column_title)
+
 df_master = df_master.drop_duplicates(subset=['Name','Minimum Alpha Acid %','Maximum Alpha Acid %','Possible Substitution','Flavor Description'])
 filename = 'hops_trimmed.csv'
 with open(filename,'w') as f:

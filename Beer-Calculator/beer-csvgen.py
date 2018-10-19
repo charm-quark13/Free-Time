@@ -68,13 +68,13 @@ for file in os.listdir(dir_str):
                                 df.iat[row_point,col_point] = data[col_point-1]
                             col_point +=1
                         row_point += 1
-                    print(df)
+#                    print(df)
                     poynt += 1
                     if poynt == 1:
                         df1 = df
                     else:
                         #df_master = pd.concat([df1,df])
-                        df_master = df1.merge(df,how='outer')
+                        df_master = df1.merge(df,how='outer',on=['Name','Minimum Alpha Acid %','Maximum Alpha Acid %','Possible Substitution','Flavor Description'])
                         df1 = df_master
 
             #a = [x.extract() for x in parse(attrs={'class':'col-xs-3'})]
@@ -86,8 +86,24 @@ for file in os.listdir(dir_str):
             continue
 
 #df_master = df_master.drop_duplicates(subset=['Name','Minimum Alpha Acid %','Maximum Alpha Acid %','Possible Substitution','Flavor Description'])
-#filename = 'hops_trimmed.csv'
+
+#print(df_master.index.shape)
+#print(df_master.isnull())
+#print(len(df_master.columns))
+
+for rw in range(df_master.index.shape[0]):
+    for clm in range(5,len(df_master.columns)):
+        if str(df_master.iloc[rw,clm])!='nan' and clm > 5:
+            place_holder = str(df_master.iloc[rw,clm])
+            print(rw,clm,place_holder)
+
+#for x in range(5,len(df_master.columns):
+#    for rw in range(len(df_master.rows)):
+#        if df_master.iloc[rw,x] == '':
+#            for y in range(x,len(df_master.columns)):
+#                if df_master.iloc[rw,y] != '':
+#                    df_master.iloc[rw,x] = df_master.iloc[rw,y]
+#                    df_master.iloc[rw,y] = ''
+#filename = 'hops_test.csv'
 #with open(filename,'w') as f:
 #    df_master.to_csv(path_or_buf=f)
-
-
